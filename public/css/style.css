@@ -1,0 +1,12 @@
+#right-content{
+    width: 800px;
+    height: auto;
+    justify-content: center;
+}
+#products{
+    display: flex;
+
+    height: 600px;
+   
+}
+#products .product{padding:3%;}
