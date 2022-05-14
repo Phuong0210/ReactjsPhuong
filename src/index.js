@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import VdForm from './form1';
+//import Form2 from './form2';
 //import App from './App';
-import State from './state'; 
+//import State from './state'; 
+//import One from './One';
 //import Car from './vd4';
+//import Vd from './VD5';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <State />
+    <VdForm />
   </React.StrictMode>
 );
 

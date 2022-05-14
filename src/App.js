@@ -1,7 +1,7 @@
 //import Numberone from './test';
-import React, { Component } from 'react';
-import './App.css';
-import Content from './component/content/content';
+// import React, { Component } from 'react';
+// import './App.css';
+// import Content from './component/content/content';
 //import Content from './component/content/content';
 
 // function App() {
@@ -20,11 +20,25 @@ import Content from './component/content/content';
 // }
 
 // export default App;
-function App(){
-  return(
-    <div id="container">
-      <Content></Content>
+// function App(){
+//   return(
+//     <div id="container">
+//       <Content></Content>
+//     </div>
+//   )
+// }
+// export default App;
+import React, { Component } from 'react';
+import Header from './component/header';
+import Shop from './component/Shop';
+ 
+function App() {
+  return (
+    <div>
+      <Header></Header>
+      <Shop></Shop>  
     </div>
-  )
+  );
 }
-export default App;
+ 
+export default App; 

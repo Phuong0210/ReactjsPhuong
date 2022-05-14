@@ -1,3 +1,4 @@
+
 function products_data(dataName){
     switch(dataName){
         case "products":
@@ -5,34 +6,39 @@ function products_data(dataName){
             {
                 id: "1",
                 name:"LUMIA 1",
-                image: "https://vn.canon/media/image/2019/07/08/8d0db401031e4decbdf0d82dce54c796_G7+X+mkIII+BK+Front.png",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCctGTxMI7cOkhs1M0C41LbQ5V4cLX8qllbQ&usqp=CAU",
+                price:"12000",
                 detail:"DIGITAL CAMERA NEW",
-                id_cate:"2"
+                id_cate:"26"
             },
             {
                 id: "2",
                 name:"LUMIA 1",
-                image: "https://vn.canon/media/image/2019/07/08/8d0db401031e4decbdf0d82dce54c796_G7+X+mkIII+BK+Front.png",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbnc-zPHEtwD3LjcknsjyC5FOW7Z-oHyS2VJAknDZFu0M2eFQgKmHHdEFjiPJVF5DghHM&usqp=CAU",
+                price:"12000",
                 detail:"DIGITAL CAMERA NEW",
-                id_cate:"22"
+                id_cate:"24"
             },
             {
                 id: "12",
                 name:"LUMIA 1",
-                image: "https://vn.canon/media/image/2019/07/08/8d0db401031e4decbdf0d82dce54c796_G7+X+mkIII+BK+Front.png",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbnc-zPHEtwD3LjcknsjyC5FOW7Z-oHyS2VJAknDZFu0M2eFQgKmHHdEFjiPJVF5DghHM&usqp=CAU",
+                price:"12000",
                 detail:"DIGITAL CAMERA NEW",
                 id_cate:"24"
             },
             {
                 id: "15",
                 name:"LUMIA 1",
-                image: "https://vn.canon/media/image/2019/07/08/8d0db401031e4decbdf0d82dce54c796_G7+X+mkIII+BK+Front.png",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOrO3Vi97PSsHobRLyBgZWE4B5sdoSPcFImw&usqp=CAU",
+                price:"12000",
                 detail:"DIGITAL CAMERA NEW",
                 id_cate:"26"
             },{
                 id: "17",
                 name:"LUMIA 1",
-                image: "https://vn.canon/media/image/2019/07/08/8d0db401031e4decbdf0d82dce54c796_G7+X+mkIII+BK+Front.png",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOrO3Vi97PSsHobRLyBgZWE4B5sdoSPcFImw&usqp=CAU",
+                price:"12000",
                 detail:"DIGITAL CAMERA NEW",
                 id_cate:"28"
             }
@@ -43,28 +49,20 @@ function products_data(dataName){
         const categories=[
             {
                 id_cate:"26",
-                title:"LUMIA 1",
-                description:"DIGITAL CAMERA NEW",
+                title:"Nam",
+                description:"DIGITAL CAMERA NEW 1",
             },
             {
                 id_cate:"28",
-                title:"LUMIA 1",
-                description:"DIGITAL CAMERA NEW",
+                title:"Nu",
+                description:"DIGITAL CAMERA NEW 2",
             },
             {
                 id_cate:"24",
-                title:"LUMIA 1",
-                description:"DIGITAL CAMERA NEW",
-            },
-            {
-                id_cate:"22",
-                title:"LUMIA 1",
-                description:"DIGITAL CAMERA NEW",
-            },{
-                id_cate:"2",
-                title:"LUMIA 1",
-                description:"DIGITAL CAMERA NEW",
+                title:"Treem",
+                description:"DIGITAL CAMERA NEW 3",
             }
+            
      
         ]
         return categories;  
