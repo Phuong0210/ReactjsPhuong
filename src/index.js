@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import VdForm from './form1';
+//import Vd3 from './form/vd3';
+import Score from './form/hk';
+//import Vd2 from './form/vd2';
+//import VdForm from './form1';
 //import Form2 from './form2';
 //import App from './App';
 //import State from './state'; 
@@ -13,7 +16,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <VdForm />
+    <Score/>
   </React.StrictMode>
 );
 
