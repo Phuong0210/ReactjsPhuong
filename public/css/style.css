@@ -9,7 +9,7 @@
     height: 600px;
    
 } */
-#products .product{padding:3%;}
+/* #products .product{padding:3%;}
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -38,4 +38,26 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-  }
+  } */
+  .tbl{
+    text-align: center;
+    padding: 40px 30px 20px 10px;
+
+}
+.form1{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    background-color: rgb(229, 198, 160);
+}
+#td{
+    color: rgb(236, 153, 29);
+}
+#vl{
+    color: rgb(250, 242, 242);
+    background-color: chocolate;
+}
+tr{
+    font-size: 20px;
+    color: rgb(50, 165, 204);
+}
